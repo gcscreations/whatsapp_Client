@@ -3,8 +3,8 @@ import './App.css';
 import {io} from "socket.io-client";
 import QRCode from "react-qr-code";
 import {useEffect, useState} from "react";
-//const socket=io.connect("http://192.168.1.5:3000/",{});
-const socket=io.connect("http://136.185.2.191",{});
+const socket=io.connect("https://apis.shristeeanimaax.com",{});
+//const socket=io.connect("http://136.185.2.191",{});
 let _myNumbers = ["919361623664","919486653693"];
 //http://192.168.1.10:3000/
 function App() {
